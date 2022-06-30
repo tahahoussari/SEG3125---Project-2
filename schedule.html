@@ -1,0 +1,446 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <title>SEG3125 Project1</title>
+    
+</head>
+
+<body>
+    
+    <!-- navbar -->
+    <div class="align-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger p-0">
+            <div class="container-fluid px-5">
+                <div class="column container-fluid">
+                    <div class="row text-center">
+                        <a href="index.html" class="navbar-brand bg-white">
+                            <img src="/Pictures/CanadaLogo.png" height="60" alt="CoolBrand">
+                            <span>
+                                <p class="fw-bold fs-3">
+                                    CanadaSoccer
+                                </p>
+                            </span>
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                
+                    <div class="row">
+                        <div class="collapse navbar-collapse bg-black" id="navbarCollapse">
+                            <div class="navbar-nav mx-auto">
+                                <a href="team.html" class="nav-item nav-link active text-white px-5 mx-5">Team</a>
+                                <a href="schedule.html" class="nav-item nav-link text-white px-5 mx-5">Schedule</a>
+                                <a href="stats.html" class="nav-item nav-link text-white px-5 mx-5">Stats</a>
+                                <a href="quizzes.html" class="nav-item nav-link text-white px-5 mx-5">Quizzes</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    
+    <div class="container">
+        <div class="row py-5">
+
+            <div class="col-sm-3">
+                <div class="card border border-dark border-2" style="width: 18rem;">
+                    <div class="card-body bg-danger text-center">
+                        <h5 class="text-white fs-3">Group A</h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Country</th>
+                            <th scope="col"></th>
+                            <th scope="col" class="text-center">Points</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Qatar</td>
+                            <td><img src="/Pictures/Countries/qatar.jpg" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Ecuador</td>
+                            <td><img src="/Pictures/Countries/ecuador.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Senegal</td>
+                            <td><img src="/Pictures/Countries/senegal.svg" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Netherlands</td>
+                            <td><img src="/Pictures/Countries/netherlands.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card border border-dark border-2" style="width: 18rem;">
+                    <div class="card-body bg-danger text-center">
+                        <h5 class="text-white fs-3">Group B</h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Country</th>
+                            <th scope="col"></th>
+                            <th scope="col" class="text-center">Points</th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>England</td>
+                            <td><img src="/Pictures/Countries/england.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                            
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Iran</td>
+                            <td><img src="/Pictures/Countries/iran.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>USA</td>
+                            <td><img src="/Pictures/Countries/usa.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Wales</td>
+                            <td><img src="/Pictures/Countries/wales.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card border border-dark border-2" style="width: 18rem;">
+                    <div class="card-body bg-danger text-center">
+                        <h5 class="text-white fs-3">Group C</h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Country</th>
+                            <th scope="col"></th>
+                            <th scope="col" class="text-center">Points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Argentina</td>
+                            <td><img src="/Pictures/Countries/argentina.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                            
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Mexico</td>
+                            <td><img src="/Pictures/Countries/mexico.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Poland</td>
+                            <td><img src="/Pictures/Countries/poland.svg" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Saudi</td>
+                            <td><img src="/Pictures/Countries/saudiarabia.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card border border-dark border-2" style="width: 18rem;">
+                    <div class="card-body bg-danger text-center">
+                        <h5 class="text-white fs-3">Group D</h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Country</th>
+                            <th scope="col"></th>
+                            <th scope="col" class="text-center">Points</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Australia</td>
+                            <td><img src="/Pictures/Countries/australia.svg" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Denmark</td>
+                            <td><img src="/Pictures/Countries/denmark.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>France</td>
+                            <td><img src="/Pictures/Countries/france.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Tunisia</td>
+                            <td><img src="/Pictures/Countries/tunisia.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row py-5">
+
+            <div class="col-sm-3">
+                <div class="card border border-dark border-2" style="width: 18rem;">
+                    <div class="card-body bg-danger text-center">
+                        <h5 class="text-white fs-3">Group E</h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Country</th>
+                            <th scope="col"></th>
+                            <th scope="col" class="text-center">Points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Costa Rica</td>
+                            <td><img src="/Pictures/Countries/costarica.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Germany</td>
+                            <td><img src="/Pictures/Countries/germany.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Japan</td>
+                            <td><img src="/Pictures/Countries/japan.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Spain</td>
+                            <td><img src="/Pictures/Countries/spain.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card border border-dark border-2" style="width: 18rem;">
+                    <div class="card-body bg-danger text-center">
+                        <h5 class="text-white fs-3">Group F</h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Country</th>
+                            <th scope="col"></th>
+                            <th scope="col" class="text-center">Points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Belgium</td>
+                            <td><img src="/Pictures/Countries/belgium.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Canada</td>
+                            <td><img src="/Pictures/Countries/canada.jpg" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Croatia</td>
+                            <td><img src="/Pictures/Countries/croatia.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Morocco</td>
+                            <td><img src="/Pictures/Countries/morocco.jpg" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card border border-dark border-2" style="width: 18rem;">
+                    <div class="card-body bg-danger text-center">
+                        <h5 class="text-white fs-3">Group G</h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Country</th>
+                            <th scope="col"></th>
+                            <th scope="col" class="text-center">Points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Brazil</td>
+                            <td><img src="/Pictures/Countries/brazil.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Cameroon</td>
+                            <td><img src="/Pictures/Countries/cameroon.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Serbia</td>
+                            <td><img src="/Pictures/Countries/serbia.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Switzerland</td>
+                            <td><img src="/Pictures/Countries/switz.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card border border-dark border-2" style="width: 18rem;">
+                    <div class="card-body bg-danger text-center">
+                        <h5 class="text-white fs-3">Group H</h5>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Country</th>
+                            <th scope="col"></th>
+                            <th scope="col" class="text-center">Points</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Ghana</td>
+                            <td><img src="/Pictures/Countries/ghana.jpg" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Portugal</td>
+                            <td><img src="/Pictures/Countries/portugal.webp" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>South Korea</td>
+                            <td><img src="/Pictures/Countries/southkorea.png" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                          
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Uruguay</td>
+                            <td><img src="/Pictures/Countries/uruguay.svg" style="width: 25%" alt="country"></td>
+                            <td class="text-center">0</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
